@@ -1,7 +1,17 @@
 {
   "store.home": { 
     "blocks": [
-      
+      "rich-text#home"
     ]
+  },
+
+  "rich-text#home":{
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "RIGHT",
+        "text": "**Texto en negritas**",
+        "className": "text-index",
+        "height": 720
+      }
   }
 }
